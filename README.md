@@ -1,16 +1,29 @@
-## Hi there 👋
+# Muiread Pabalis GitHub Pages Site
 
-<!--
-**muireadpabalis/muireadpabalis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is a simple static site for GitHub Pages.
 
-Here are some ideas to get you started:
+## Pages
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- `index.html` - main Muiread Pabalis page
+- `muiread-craft/index.html` - earlier public name page
+- `muiread-faherty/index.html` - earlier public name page
+
+## Before Publishing
+
+Optional items to add later:
+
+- a real LinkedIn profile URL
+- a contact email link, if you want public contact
+
+## Recommended Repository Settings
+
+1. Use the public GitHub repository named `muireadpabalis`.
+2. Upload these files.
+3. In GitHub, go to Settings > Pages.
+4. Set Source to `Deploy from a branch`.
+5. Choose `main` and `/root`.
+6. Save.
+
+GitHub will publish the site at:
+
+`https://muireadpabalis.github.io/muireadpabalis/`
