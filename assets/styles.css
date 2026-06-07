@@ -244,6 +244,21 @@ dd {
   color: var(--muted);
 }
 
+.reference-grid {
+  align-items: stretch;
+}
+
+.reference-grid article {
+  min-height: 250px;
+}
+
+.reference-meta {
+  margin: 10px 0;
+  color: var(--accent-dark) !important;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
 footer {
   padding: 24px clamp(20px, 5vw, 72px);
   border-top: 1px solid var(--line);
