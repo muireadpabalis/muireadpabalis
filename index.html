@@ -1,290 +1,96 @@
-:root {
-  color-scheme: light;
-  --ink: #1e2726;
-  --muted: #5f6d69;
-  --paper: #fbfaf7;
-  --band: #eef3ef;
-  --line: #cfd8d2;
-  --accent: #236c67;
-  --accent-dark: #174d49;
-  --gold: #c59a45;
-  --white: #ffffff;
-}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Muiread Pabalis | Clinical Laboratory Science</title>
+    <meta name="description" content="Muiread Pabalis is a clinical laboratory science professional. Earlier public records and work may also appear under the names Muiread Faherty and Muiread Craft.">
+    <link rel="canonical" href="https://muireadpabalis.github.io/muireadpabalis/">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Muiread Pabalis home">
+        <span class="brand-mark">MP</span>
+        <span>Muiread Pabalis</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="index.html">About</a>
+        <a href="muiread-craft/">Muiread Craft</a>
+        <a href="muiread-faherty/">Muiread Faherty</a>
+      </nav>
+    </header>
 
-* {
-  box-sizing: border-box;
-}
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Clinical Laboratory Science</p>
+          <h1>Muiread Pabalis</h1>
+          <p class="lede">
+            Muiread Pabalis is a clinical laboratory science professional with experience in medical technology, laboratory operations, and healthcare workflows.
+          </p>
+          <div class="actions">
+            <a class="button" href="https://www.linkedin.com/in/muiread-pabalis-b6794a59/" rel="me">LinkedIn Profile</a>
+          </div>
+        </div>
+        <div class="identity-panel" aria-label="Professional focus">
+          <div class="profile-symbol" aria-hidden="true">
+            <span>MP</span>
+          </div>
+          <dl>
+            <div>
+              <dt>Field</dt>
+              <dd>Clinical laboratory science</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Reliable, quality-focused diagnostic support</dd>
+            </div>
+            <div>
+              <dt>Earlier names</dt>
+              <dd>Muiread Faherty and Muiread Craft</dd>
+            </div>
+            <div>
+              <dt>Profile</dt>
+              <dd><a href="https://www.linkedin.com/in/muiread-pabalis-b6794a59/" rel="me">LinkedIn</a></dd>
+            </div>
+          </dl>
+        </div>
+      </section>
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--ink);
-  background: var(--paper);
-  line-height: 1.6;
-}
+      <section class="content-band">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Professional Background</h2>
+        </div>
+        <div class="prose">
+          <p>
+            I am Muiread Pabalis, a medical technologist and clinical laboratory science professional. My work is connected to hospital laboratory operations, patient-centered diagnostic support, and careful healthcare processes.
+          </p>
+          <p>
+            Some earlier public records, professional references, and community activity may appear under the names Muiread Faherty and Muiread Craft. These pages provide clear context for those earlier public names while keeping Muiread Pabalis as the primary current name.
+          </p>
+        </div>
+      </section>
 
-a {
-  color: var(--accent-dark);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.18em;
-}
+      <section class="link-grid" aria-label="Related pages">
+        <article>
+          <p class="eyebrow">Earlier Public Name</p>
+          <h2>Muiread Craft</h2>
+          <p>Earlier community and civic references, including public meeting records and environmental planning activity.</p>
+          <a href="muiread-craft/">View page</a>
+        </article>
+        <article>
+          <p class="eyebrow">Earlier Public Name</p>
+          <h2>Muiread Faherty</h2>
+          <p>Selected earlier records and references that may appear under a previous public name.</p>
+          <a href="muiread-faherty/">View page</a>
+        </article>
+      </section>
+    </main>
 
-.site-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 18px clamp(20px, 5vw, 72px);
-  border-bottom: 1px solid var(--line);
-  background: rgba(251, 250, 247, 0.96);
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--ink);
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.brand-mark {
-  display: inline-grid;
-  place-items: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: var(--accent);
-  color: var(--white);
-  font-size: 0.78rem;
-  letter-spacing: 0;
-}
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 14px;
-  font-size: 0.95rem;
-}
-
-nav a {
-  color: var(--muted);
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: var(--accent-dark);
-}
-
-main {
-  min-height: 72vh;
-}
-
-.hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr);
-  align-items: center;
-  gap: clamp(28px, 6vw, 80px);
-  padding: clamp(56px, 8vw, 104px) clamp(20px, 5vw, 72px) clamp(44px, 7vw, 84px);
-  background:
-    linear-gradient(90deg, rgba(35, 108, 103, 0.1), transparent 46%),
-    var(--paper);
-}
-
-.hero h1,
-.page-title h1 {
-  margin: 0;
-  font-size: clamp(3rem, 8vw, 6.5rem);
-  line-height: 0.95;
-  letter-spacing: 0;
-}
-
-.lede,
-.page-title p {
-  max-width: 720px;
-  font-size: clamp(1.15rem, 2vw, 1.45rem);
-  color: var(--muted);
-}
-
-.eyebrow {
-  margin: 0 0 10px;
-  color: var(--accent-dark);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 28px;
-}
-
-.button {
-  display: inline-flex;
-  align-items: center;
-  min-height: 44px;
-  padding: 10px 18px;
-  border: 1px solid var(--accent);
-  border-radius: 6px;
-  background: var(--accent);
-  color: var(--white);
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.button.secondary {
-  background: transparent;
-  color: var(--accent-dark);
-}
-
-.identity-panel {
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 24px;
-  background: var(--white);
-  box-shadow: 0 16px 40px rgba(30, 39, 38, 0.08);
-}
-
-.profile-symbol {
-  display: grid;
-  place-items: center;
-  aspect-ratio: 1;
-  max-width: 260px;
-  margin: 0 auto 24px;
-  border-radius: 8px;
-  background:
-    linear-gradient(135deg, rgba(35, 108, 103, 0.2), rgba(197, 154, 69, 0.2)),
-    var(--band);
-  border: 1px solid var(--line);
-}
-
-.profile-symbol span {
-  display: grid;
-  place-items: center;
-  width: 52%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: var(--accent-dark);
-  color: var(--white);
-  font-size: clamp(2rem, 6vw, 4rem);
-  font-weight: 700;
-}
-
-dl {
-  margin: 0;
-}
-
-dl div {
-  padding: 14px 0;
-  border-top: 1px solid var(--line);
-}
-
-dt {
-  color: var(--muted);
-  font-size: 0.84rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-dd {
-  margin: 4px 0 0;
-}
-
-.content-band,
-.link-grid,
-.page-title {
-  padding: clamp(38px, 6vw, 76px) clamp(20px, 5vw, 72px);
-}
-
-.content-band {
-  display: grid;
-  grid-template-columns: minmax(180px, 0.45fr) minmax(0, 1fr);
-  gap: clamp(24px, 6vw, 76px);
-  background: var(--band);
-}
-
-.section-heading h2,
-.link-grid h2 {
-  margin: 0;
-  font-size: clamp(1.6rem, 3vw, 2.4rem);
-  line-height: 1.1;
-}
-
-.prose {
-  max-width: 780px;
-  font-size: 1.05rem;
-}
-
-.prose p:first-child {
-  margin-top: 0;
-}
-
-.link-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-}
-
-.link-grid article {
-  min-height: 220px;
-  padding: 24px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--white);
-}
-
-.link-grid p {
-  color: var(--muted);
-}
-
-.reference-grid {
-  align-items: stretch;
-}
-
-.reference-grid article {
-  min-height: 250px;
-}
-
-.reference-meta {
-  margin: 10px 0;
-  color: var(--accent-dark) !important;
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
-footer {
-  padding: 24px clamp(20px, 5vw, 72px);
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 0.92rem;
-}
-
-@media (max-width: 760px) {
-  .site-header,
-  .hero,
-  .content-band,
-  .link-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .site-header {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  nav {
-    justify-content: flex-start;
-  }
-
-  .hero h1,
-  .page-title h1 {
-    font-size: clamp(2.8rem, 18vw, 4.6rem);
-  }
-}
+    <footer>
+      <p>&copy; 2026 Muiread Pabalis. Earlier public references may appear under Muiread Faherty or Muiread Craft.</p>
+    </footer>
+  </body>
+</html>
